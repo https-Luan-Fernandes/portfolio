@@ -4,6 +4,11 @@
       font-family: 'Roboto', sans-serif;
 }
 
+html {
+      scroll-behavior: smooth;
+}
+
+
 body {
       display: grid;
       grid-template-rows: 1fr 8fr 1fr;
@@ -26,7 +31,7 @@ header nav {
 
 header nav ul {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, auto);
       grid-template-rows: 1fr;
       background-color: #333;
       grid-row: 1;
@@ -153,7 +158,8 @@ main {
       grid-template-rows: 1fr 1fr;
 }
 
-.email-container label, .message-container label{
+.email-container label,
+.message-container label {
       font-weight: bolder;
 }
 
@@ -230,8 +236,10 @@ a {
 
 #home img {
       border-radius: 50%;
-      height: 60%;  /* Ajuste a altura conforme necessário */
-      margin-right: 2em;  /* Ajuste o espaço entre a imagem e o texto */
+      height: 60%;
+      /* Ajuste a altura conforme necessário */
+      margin-right: 2em;
+      /* Ajuste o espaço entre a imagem e o texto */
 }
 
 .typing-effect {
@@ -269,7 +277,7 @@ a {
 .github,
 .linkedin {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 0.2fr 0.8fr;
       place-items: center;
 }
 

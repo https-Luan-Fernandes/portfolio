@@ -11,17 +11,18 @@
       <link rel="icon" href="assets/img/icons8-portfolium.svg" type="image/x-icon">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
 </head>
 
 <body>
       <header>
             <nav>
                   <ul>
-                        <li><a href="#home">Início</a></li>
-                        <li><a href="#about">Sobre</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Quem Sou</a></li>
+                        <li><a href="#projects">Meus Projetos</a></li>
+                        <li><a href="#contact">Fale Comigo</a></li>
                   </ul>
             </nav>
       </header>
@@ -36,7 +37,8 @@
                   <div class="introduction">
                         <h2>Sobre Mim</h2>
                         <p>
-                              Sou estudante de análise e desenvolvimento de sistemas no <a href="https://www.ifpb.edu.br/" target="_blank">Instituto Federal da Paraíba</a>.
+                              Sou estudante de análise e desenvolvimento de sistemas no <a
+                                    href="https://www.ifpb.edu.br/" target="_blank">Instituto Federal da Paraíba</a>.
                               Aficionado por Inteligência Artificial e Desenvolvimento de Softwares.
                               Atraído pela possibilidade de criar soluções impactantes através da programação com
                               auxílio de IA.
@@ -88,14 +90,18 @@
                                     <p>Frameworks e ferramentas: Jupyter Notebook, TensorFlow, Scikit-learn.</p>
                               </li>
                               <li>
-                                    <p>Plataformas: AWS (Certified Cloud Practitioner, various partner certifications).</p>
+                                    <p>Plataformas: AWS (Certified Cloud Practitioner, various partner certifications).
+                                    </p>
                               </li>
                               <li>
                                     <p>Soft Skills: Comunicação assertiva, adaptabilidade em ambientes de trabalho.</p>
                               </li>
                               <li>
-                                    <p>Certificações: <a href="https://www.credly.com/badges/c0cab50e-fa4b-4779-872a-83a8693497e2/linked_in_profile" target="_blank">AWS
-                                                Cloud Practitioner</a>, <a href="https://cert.efset.org/en/zPAjqS" target="_blank">EF SET
+                                    <p>Certificações: <a
+                                                href="https://www.credly.com/badges/c0cab50e-fa4b-4779-872a-83a8693497e2/linked_in_profile"
+                                                target="_blank">AWS
+                                                Cloud Practitioner</a>, <a href="https://cert.efset.org/en/zPAjqS"
+                                                target="_blank">EF SET
                                                 English Certificate (C1 Advanced)</a>, and more.</p>
                               </li>
                         </ul>
@@ -105,10 +111,14 @@
                   <div class="projects-container">
                         <h2>Projetos</h2>
                         <div class="project">
-                              <img src="assets/img/placeholder.jpg" alt="Imagem representativa do Projeto 1">
-                              <h3>Projeto 1 Título</h3>
-                              <p>Descrição...</p>
-                              <a href="#">Ver no GitHub</a>
+                              <img src="assets/img/backgrounds.jpg" alt="Imagem representativa do Projeto 1">
+                              <h3>Lista de Tarefas</h3>
+                              <p>Tecnologias: HTML, CSS, JS. Funcionalidades: adicionar, remover e marcar como concluido
+                                    a tarefa. Armazenamento no local storage.</p>
+                              <a href="https://https-luan-fernandes.github.io/lista-de-tarefas/" target="_blank">Ver
+                                    projeto online</a><br />
+                              <a href="https://github.com/https-Luan-Fernandes/lista-de-tarefas" target="_blank">Código
+                                    no GitHub</a>
                         </div>
                         <div class="project">
                               <img src="assets/img/placeholder.jpg" alt="Imagem representativa do Projeto 2">
@@ -145,18 +155,25 @@
             </section>
       </main>
       <footer>
-            <p>&copy; Luan Fernandes, Todos os Direitos Reservados.</p>
+            <p>&copy; <span id="current-year" aria-label="Ano atual"></span> Luan Fernandes, Todos os Direitos
+                  Reservados.</p>
             <div class="footer-links">
                   <div class="github">
                         <img src="assets/img/icons8-github.svg" alt="ícone do GitHub">
-                        <a href="https://github.com/https-Luan-Fernandes" target="_blank" aria-label="Perfil do GitHub de Luan Fernandes" >GitHub</a>
+                        <a href="https://github.com/https-Luan-Fernandes" target="_blank"
+                              aria-label="Perfil do GitHub de Luan Fernandes">Meu GitHub</a>
                   </div>
                   <div class="linkedin">
                         <img src="assets/img/icons8-linkedin.svg" alt="ícone do LinkedIn">
-                        <a href="https://www.linkedin.com/in/luan-fernandes-dev/" target="_blank" aria-label="Perfil do LinkedIn de Luan Fernandes">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/luan-fernandes-dev/" target="_blank"
+                              aria-label="Perfil do LinkedIn de Luan Fernandes">Conecte-se no LinkedIn</a>
                   </div>
             </div>
       </footer>
+      <script>
+            const currentYear = new Date().getFullYear();
+            document.getElementById('current-year').textContent = currentYear;
+      </script>
 </body>
 
 </html>
