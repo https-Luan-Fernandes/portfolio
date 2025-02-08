@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+      }
+
+      body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+      }
+
+      header nav {
+            background-color: #333;
+            padding: 10px;
+      }
+
+      header nav ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+      }
+
+      header nav ul li {
+            margin: 10px 0;
+      }
+
+      header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            padding: 10px;
+            display: block;
+            text-align: center;
+      }
+
+      .perfil {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+      }
+
+      .perfil img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+      }
+
+      .projects-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+      }
+
+      .project {
+            width: 100%;
+            max-width: 100%;
+            margin: 10px 0;
+            text-align: center;
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+      }
+
+
+      .contact-container {
+            padding: 20px;
+            text-align: center;
+      }
+
+      .contact-container input,
+      .contact-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+      }
+
+      .button-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+      }
+
+      .footer-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+      }
+
+      .footer-links div {
+            margin: 5px 0;
+      }
+
+      .linkedin,
+      .github {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
+}
